@@ -125,7 +125,7 @@ These values are measurements from a particular evaluation run. Latency can vary
 After publishing the repository, clone it and open PowerShell in the project directory.
 
 ```powershell
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/tousifta07-cyber/SupportPilot.git
 cd SupportPilot
 ```
 

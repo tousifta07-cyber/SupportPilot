@@ -129,8 +129,6 @@ git clone https://github.com/tousifta07-cyber/SupportPilot.git
 cd SupportPilot
 ```
 
-Replace the placeholder with your actual GitHub repository URL.
-
 ### 2. Create and activate a virtual environment
 
 ```powershell

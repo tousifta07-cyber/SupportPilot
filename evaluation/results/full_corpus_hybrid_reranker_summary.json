@@ -1,0 +1,22 @@
+{
+  "experiment": "hybrid_rrf_vs_reranker",
+  "collection": "techqa_full_corpus_fixed",
+  "answerable_questions": 25,
+  "vector_candidate_k": 20,
+  "bm25_candidate_k": 20,
+  "final_k": 5,
+  "rrf_k": 60,
+  "union_candidate_hit_rate": 0.76,
+  "hybrid_rrf": {
+    "hits": 18,
+    "hit_rate": 0.72,
+    "mrr": 0.61
+  },
+  "hybrid_reranked": {
+    "hits": 19,
+    "hit_rate": 0.76,
+    "mrr": 0.66
+  },
+  "mean_retrieval_latency_ms": 1685.6814760062844,
+  "mean_reranking_latency_ms": 262.9915159987286
+}

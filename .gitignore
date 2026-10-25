@@ -1,0 +1,36 @@
+﻿# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Local datasets, generated chunks, vector databases and tickets
+data/
+
+# Local backups
+backups/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log

@@ -1,0 +1,15 @@
+{
+  "experiment": "full_corpus_vector_baseline",
+  "chunk_size_words": 300,
+  "overlap_words": 50,
+  "collection": "techqa_full_corpus_fixed",
+  "indexed_chunks": 56393,
+  "total_questions": 50,
+  "answerable_questions": 25,
+  "unanswerable_questions": 25,
+  "top_k": 5,
+  "hits_at_5": 17,
+  "hit_rate_at_5": 0.68,
+  "hit_rate_at_5_percent": 68.0,
+  "mrr_at_5": 0.6033333333333334
+}
